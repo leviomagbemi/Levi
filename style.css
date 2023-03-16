@@ -107,7 +107,7 @@ header a{
  background-repeat: no-repeat;
  background-size: cover;
  background-blend-mode: soft-light;
-  line-height:32px;
+ line-height: 32px;
 }
 
 .textcon h1{
@@ -204,7 +204,7 @@ margin: 0 0 1.5rem 0;
     background-color: #e3e2e2;
     padding: 2rem;
     border-radius: 8px;
-    line-height:32px;
+    line-height: 32px;
   }
 
   .box1{
