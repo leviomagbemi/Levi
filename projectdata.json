@@ -1,0 +1,25 @@
+[
+  {
+    "projectname": "NullPhotos",
+    "image": "images/NullPhotos.jpeg",
+    "description": "A website built for a photography client, featuring a gallery page, home page, contact page with contact form and booking form, and service page detailing available packages. The site is fully responsive and optimized for viewing on any device.",
+    "technologies": "HTML, CSS, and JavaScript",
+    "responsiveness": "100%"
+  },
+
+  {
+    "projectname": "Music player",
+    "image": "images/Music player.jpg",
+    "description": "simple music player",
+    "technologies": "HTML, CSS, and JavaScript",
+    "responsiveness": "This is not a real project so might not be responsive"
+  },
+
+  {
+    "projectname": "Spelling game",
+    "image": "images/spelling game.jpg",
+    "description": "simple spelling games",
+    "technologies": "HTML, CSS, and JavaScript",
+    "responsiveness": "This is not a real project so might not be responsive"
+  }
+]
