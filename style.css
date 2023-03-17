@@ -301,7 +301,7 @@ margin: 0 0 1.5rem 0;
     border-radius: 16px;
     color: var(--dark-blue);
     background-color: var(--white);
-    width: 50%;
+    width: 60%;
   }
   .projectimg-con{
    width: 50%;
@@ -523,6 +523,10 @@ margin: 0 0 1.5rem 0;
       width: 300px;
       margin: 0 auto;
       margin-bottom: 2rem; 
+    }
+    
+    .project-container{
+      width: 100%;
     }
 
     footer{
