@@ -68,7 +68,7 @@ header a{
 }
 
 text p{
-  line-height: 160%;
+  line-height: 32px;
 }
 
 .email{
@@ -147,7 +147,6 @@ footer{
   text-align: center;
   padding: 3rem 0;
   text-transform: capitalize;
-  font-size: 18px;
   color: #fff;
 }
 
