@@ -55,7 +55,7 @@ header a{
   justify-self: end;
   color: var(--white);
   margin: 0.5rem 0 0 0;
-  font-size: 1.2rem;
+  font-size: 19px;
 }
 
 .icons a{
@@ -78,7 +78,7 @@ header a{
   display: none;
   background-color: var(--dark-blue);
   padding: 1rem 0;
-  font-size: 1.5rem;
+  font-size: 24px;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -258,7 +258,7 @@ margin: 0 0 1.5rem 0;
   }
 
   .textbox p{
-    line-height: 160%;
+    line-height: 32px;
   }
 
   footer{
@@ -357,7 +357,7 @@ margin: 0 0 1.5rem 0;
     }
 
     .whatsapp{
-      font-size: 3rem;
+      font-size: 48px;
       text-decoration: none;
       top: 400px;
       right: 0px;
@@ -400,7 +400,7 @@ margin: 0 0 1.5rem 0;
     }
 
     .whatsapp{
-      font-size: 3rem;
+      font-size: 48px;
       text-decoration: none;
       top: 400px;
       right: 0px;
@@ -470,7 +470,7 @@ margin: 0 0 1.5rem 0;
     }
 
     .whatsapp{
-      font-size: 2rem;
+      font-size: 32px;
       text-decoration: none;
       top: 550px;
       right: 0px;
