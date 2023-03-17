@@ -301,10 +301,10 @@ margin: 0 0 1.5rem 0;
     border-radius: 16px;
     color: var(--dark-blue);
     background-color: var(--white);
-    max-width: 600px;
+    width: 50%;
   }
   .projectimg-con{
-    max-width: 600px;
+   width: 50%;
     margin: auto;
   }
 
