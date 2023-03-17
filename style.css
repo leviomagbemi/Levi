@@ -111,7 +111,6 @@ header a{
 }
 
 .textcon h1{
-font-size: 2rem;
 margin: 0 0 1.5rem 0;
  }
 
@@ -267,7 +266,6 @@ margin: 0 0 1.5rem 0;
     text-align: center;
     padding: 3rem 0;
     text-transform: capitalize;
-    font-size: 18px;
     color: var(--white);
   }
 
@@ -283,7 +281,6 @@ margin: 0 0 1.5rem 0;
   .projectpage-intro{
     line-height: 32px;
     text-align: center;
-    font-size: 1.2rem;
   }
 
   .project-heading{
@@ -313,13 +310,11 @@ margin: 0 0 1.5rem 0;
 
   #projects p{
     margin: 1rem 0;
-    font-size: 1.1rem;
     line-height: 32px;
   }
 
   #projects li{
     margin: 0.5rem 0;
-    font-size: 1.1rem;
   }
 
   #projects li strong{
@@ -331,7 +326,6 @@ margin: 0 0 1.5rem 0;
     padding: 1rem 3rem;
     border-radius: 8px;
     border: none;
-    font-size: 1.1rem;
     background-color: var(--dark-blue);
     color: var(--white);
   }
