@@ -17,9 +17,6 @@ h1,h2,h3,
 h4,h5,h6{
   text-transform: uppercase;
 
-  p{
-  font-size: 16px;}
-  
 }
 img{
   width: 100%;
@@ -97,6 +94,7 @@ header a{
 
 #mainsec{
   display: flex;
+   width: 100%;
 }
 
 .textcon{
@@ -174,7 +172,7 @@ margin: 0 0 1.5rem 0;
   }
 
   .whatsapp{
-    font-size: 3rem;
+    font-size: 48px;
     text-decoration: none;
     position: fixed;
     top: 450px;
@@ -189,6 +187,7 @@ margin: 0 0 1.5rem 0;
     color: var(--white);
     text-align: center;
     text-transform: capitalize;
+     width: 100%;
   }
 
   .container{
@@ -225,6 +224,7 @@ margin: 0 0 1.5rem 0;
   .section3{
     background-color: var(--dark-blue);
     padding: 3rem 2rem;
+     width: 100%;
   }
 
   .section3 h2{
@@ -576,6 +576,10 @@ margin: 0 0 1.5rem 0;
 
     .message{
       display:none;}
+    
+    .container h2{
+        font-size: 1em;
+      }
 
       .container2{
         display: block;
