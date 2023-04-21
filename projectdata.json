@@ -12,7 +12,7 @@
     "image": "images/Music player.jpg",
     "description": "simple music player",
     "technologies": "HTML, CSS, and JavaScript",
-    "responsiveness": "This is not a real project so might not be responsive"
+    "responsiveness": "Desktop and Laptop"
   },
 
   {
@@ -20,6 +20,22 @@
     "image": "images/word legend clone.jpg",
     "description": "simple spelling games",
     "technologies": "HTML, CSS, and JavaScript",
-    "responsiveness": "This is not a real project so might not be responsive"
+    "responsiveness": "Desktop and Laptop"
+  },
+  
+   {
+    "projectname": "GenieAi",
+    "image": "images/GenieAi.jpg",
+    "description": "Chat assistant powered by GPT-3 model",
+    "technologies": "HTML, Bootstrap, and JavaScript",
+    "responsiveness": "100%"
+  },
+  
+   {
+    "projectname": "WorkWizOut",
+    "image": "images/WorkWizOut.jpg",
+    "description": "Body fitness app",
+    "technologies": "HTML, Bootstrap, and JavaScript",
+    "responsiveness": "100%"
   }
 ]
