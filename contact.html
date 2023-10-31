@@ -1,83 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="Contact, Get in touch, Hire me, Web development services, Custom website development, Web developer, Front-end developer, Freelance web developer, Contact form, Email address, Phone number, Levi Omagbemi, Levi">
-  <script src="https://kit.fontawesome.com/edec7f25e3.js" crossorigin="anonymous"></script>
-  <title>Contact</title>
-  <link rel="stylesheet" href="contact.css">
-</head>
-<body>
-  <header id="header">
-    <h1 id="brand-logo">
-      LEVI.
-    </h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Contact, Get in touch, Hire me, Web development services, Custom website development, Web developer, Front-end developer, Freelance web developer, Contact form, Email address, Phone number, Levi Omagbemi, Levi"
+    />
+    <script
+      src="https://kit.fontawesome.com/edec7f25e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="brand-logo">LEVI.</h1>
 
-    <nav id="navbar">
+      <nav id="navbar">
+        <ul class="navlist" type="none">
+          <a href="index.html"><li class="navitem">Home</li></a>
+          <a href="project.html"><li class="navitem">Projects</li></a>
+          <a href="contact.html"><li class="navitem">Contact</li></a>
+        </ul>
+      </nav>
+
+      <div class="icons">
+        <a href="https://web.facebook.com/leviomagemi" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/leviomagbemi/" target="_blank"
+          ><i class="fa-brands fa-square-instagram"></i
+        ></a>
+        <a href="https://twitter.com/LeviOmagbemi" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://github.com/leviomagbemi" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </header>
+
+    <section class="contactSec">
+      <div class="text">
+        <h1>
+          Looking to get in touch? <br />
+          Let's make it happen! <i class="fas fa-smile"></i>
+        </h1>
+        <p>
+          Whether you have a project in mind or just want to say hello, I'm
+          always excited to connect with new people. Drop me a line using the
+          form.
+          <span class="email">
+            <span><i class="mail fas fa-envelope-open-text"></i> </span>
+
+            <span>
+              Shoot me an email at<a href="https://leviomagbemi15@gmail.com"
+                >leviomagbemi15@gmail.com</a
+              >
+            </span>
+          </span>
+          Let's collaborate and create something awesome together!
+          <i class="fas fa-handshake"></i>
+        </p>
+      </div>
+
+      <div id="contact-form">
+        <h1>Send me a message</h1>
+        <form action="" id="contactform">
+          <input
+            type="text"
+            name="Full name"
+            placeholder="Full name"
+            id="fullname"
+            required
+          />
+
+          <input
+            type="email"
+            name="Email address"
+            placeholder="Email address"
+            id="email"
+            required
+          />
+
+          <input
+            type="text"
+            name="Subject"
+            placeholder="Subject"
+            id="subject"
+            required
+          />
+
+          <textarea
+            name="Project"
+            id="project"
+            cols="30"
+            rows="10"
+            placeholder="Tell me about your project"
+            required
+          ></textarea>
+
+          <button class="submit" type="submit">
+            Send message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer id="mainfooter">
+      <p>&copy; levi. all rights reserved</p>
+    </footer>
+
+    <nav id="mobilenav">
       <ul class="navlist" type="none">
-        <a href="index.html"><li class="navitem">Home</li></a>
-        <a href="project.html"><li class="navitem">Projects</li></a>
-        <a href="contact.html"><li class="navitem">Contact</li></a>
+        <a href="index.html"
+          ><li class="navitem"><i class="fas fa-home"></i></li
+        ></a>
+        <a href="project.html"
+          ><li class="navitem"><i class="fas fa-briefcase"></i></li
+        ></a>
+        <a href="contact.html"
+          ><li class="navitem"><i class="fas fa-envelope-open-text"></i></li
+        ></a>
       </ul>
     </nav>
 
-    <div class="icons">
-      <a href="https://web.facebook.com/leviomagemi" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-      <a href="https://www.instagram.com/leviomagbemi/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-      <a href="https://twitter.com/LeviOmagbemi" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-      <a href="https://github.com/leviomagbemi" target="_blank"><i class="fa-brands fa-github"></i></a>
-    </div>
-  </header>
-  
-  <section class="contactSec">
-    <div class="text">
-      <h1>Looking to get in touch? <br> Let's make it happen! <i class="fas fa-smile"></i></h1>
-      <p>
-         Whether you have a project in mind or just want to say hello, I'm always excited to connect with new people. Drop me a line using the form. 
-         <span class="email">
-          <span><i class="mail fas fa-envelope-open-text"></i>
-          </span>
-
-          <span>
-            Shoot me an email at<a href="leviomagbemi15@gmail.com">leviomagbemi15@gmail.com</a>
-          </span>
-         </span> 
-         Let's collaborate and create something awesome together!
-         <i class="fas fa-handshake"></i>
-      </p>
-    </div>
-
-    <div id="contact-form">
-      <h1>Send me a message</h1>
-      <form action="" id="contactform">
-        <input type="text" name="Full name" placeholder="Full name" id="fullname" required>
-
-        <input type="email" name="Email address" placeholder="Email address" id="email" required>
-
-        <input type="text"  name="Subject" placeholder="Subject" id="subject" required>
-
-        <textarea name="Project" id="project" cols="30" rows="10" placeholder="Tell me about your project" required></textarea>
-
-        <button class="submit" type="submit">Send message <i class="fas fa-paper-plane"></i></button>
-      </form>
-    </div>
-  </section>
-  
-  <footer id="mainfooter">
-    <p>&copy; levi. all rights reserved</p>
-  </footer>
-
-  <nav id="mobilenav">
-    <ul class="navlist" type="none">
-      <a href="index.html"><li class="navitem"><i class="fas fa-home"></i></li></a>
-      <a href="project.html"><li class="navitem"><i class="fas fa-briefcase"></i></li></a>
-      <a href="contact.html"><li class="navitem"><i class="fas fa-envelope-open-text"></i></li></a>
-    </ul>
-  </nav>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
-  <script src="form.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="form.js"></script>
+  </body>
 </html>
